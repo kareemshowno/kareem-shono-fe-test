@@ -186,7 +186,7 @@ const handleEditSubmit = async (e) => {
         <form onSubmit={handleDeleteSubmit}>
        
         <div className='text-center'>
-        <a className={`   ${styles.backLink}`} href="/">Back</a>
+        <Link href="/">Back</Link>
           <button type='submit' className='mx-3  btn btn-success'>Yes</button>
         </div>
  

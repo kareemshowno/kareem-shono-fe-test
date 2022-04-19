@@ -1,4 +1,4 @@
-import { useRouter } from "next/router";
+
 import Head from 'next/head';
 import styles from '../../../styles/layout.module.css'
 import  Link  from "next/link";
@@ -7,8 +7,7 @@ import axios from "axios";
 
 const todos = ({todo}) => {
  
-    const router = useRouter();
-    const {id} = router.query
+  
   return (
       <>
            <Head>
